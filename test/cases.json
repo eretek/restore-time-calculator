@@ -1,0 +1,35 @@
+{
+ "tests": [
+  {
+   "in": {
+    "size": 2000,
+    "rate": 200,
+    "setup": 30,
+    "rto": 4
+   },
+   "v": {
+    "hours": 3.278,
+    "meets": true
+   }
+  },
+  {
+   "in": {
+    "size": 6000,
+    "rate": 150,
+    "setup": 60,
+    "verify": 45,
+    "rto": 8
+   },
+   "v": {
+    "meets": false
+   }
+  },
+  {
+   "in": {
+    "size": 2000,
+    "rate": 0
+   },
+   "err": "rate"
+  }
+ ]
+}
